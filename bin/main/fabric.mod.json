@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "JOJOmod",
+  "version": "${version}",
+  "name": "JOJOmod",
+  "description": "Try to promote. ",
+  "authors": [
+    "lilq1"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/JOJOmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.lilq1.jojomod.client.JOJOmodClient"
+    ],
+    "main": [
+      "com.lilq1.jojomod.JOJOmod"
+    ]
+  },
+  "mixins": [
+    "JOJOmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
